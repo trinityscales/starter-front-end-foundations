@@ -26,6 +26,15 @@ h3 {
 
 .group {
   display: flex;
-  flex-direction: row; /* or column */
+  flex-direction: column;
 }
 
+.item {
+  flex: 1;
+  margin: 20px;
+  border: solid blue 2px;
+}
+
+.item-double {
+  flex: 2;
+}
